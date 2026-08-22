@@ -99,7 +99,7 @@ The final overall-survival cohort contains:
 * 1,138 deaths
 * 833 censored observations
 
-### ### Relapse-free survival cohort
+### Relapse-free survival cohort
 
 The relapse-free survival (RFS) cohort will include patients who meet all of the following criteria:
 
