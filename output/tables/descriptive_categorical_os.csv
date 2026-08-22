@@ -1,0 +1,257 @@
+variable,variable_label,group,level,n,denominator,percent
+tumor_stage,Tumor stage,Overall,0,11,1971,0.5580923389142567
+tumor_stage,Tumor stage,Overall,1,500,1971,25.36783358701167
+tumor_stage,Tumor stage,Overall,2,822,1971,41.70471841704718
+tumor_stage,Tumor stage,Overall,3,118,1971,5.986808726534754
+tumor_stage,Tumor stage,Overall,4,10,1971,0.5073566717402334
+tumor_stage,Tumor stage,Overall,Missing,510,1971,25.875190258751903
+tumor_stage,Tumor stage,Luminal A,1,222,700,31.714285714285715
+tumor_stage,Tumor stage,Luminal A,2,286,700,40.857142857142854
+tumor_stage,Tumor stage,Luminal A,3,26,700,3.7142857142857144
+tumor_stage,Tumor stage,Luminal A,4,2,700,0.2857142857142857
+tumor_stage,Tumor stage,Luminal A,Missing,164,700,23.428571428571427
+tumor_stage,Tumor stage,Luminal B,0,2,475,0.42105263157894735
+tumor_stage,Tumor stage,Luminal B,1,104,475,21.894736842105264
+tumor_stage,Tumor stage,Luminal B,2,210,475,44.21052631578947
+tumor_stage,Tumor stage,Luminal B,3,30,475,6.315789473684211
+tumor_stage,Tumor stage,Luminal B,4,6,475,1.263157894736842
+tumor_stage,Tumor stage,Luminal B,Missing,123,475,25.894736842105264
+tumor_stage,Tumor stage,HER2-enriched,0,2,224,0.8928571428571429
+tumor_stage,Tumor stage,HER2-enriched,1,34,224,15.178571428571429
+tumor_stage,Tumor stage,HER2-enriched,2,90,224,40.17857142857143
+tumor_stage,Tumor stage,HER2-enriched,3,22,224,9.821428571428571
+tumor_stage,Tumor stage,HER2-enriched,Missing,76,224,33.92857142857143
+tumor_stage,Tumor stage,Basal-like,0,3,209,1.4354066985645932
+tumor_stage,Tumor stage,Basal-like,1,35,209,16.74641148325359
+tumor_stage,Tumor stage,Basal-like,2,92,209,44.01913875598086
+tumor_stage,Tumor stage,Basal-like,3,14,209,6.698564593301436
+tumor_stage,Tumor stage,Basal-like,Missing,65,209,31.10047846889952
+tumor_stage,Tumor stage,Normal-like,1,42,148,28.37837837837838
+tumor_stage,Tumor stage,Normal-like,2,58,148,39.189189189189186
+tumor_stage,Tumor stage,Normal-like,3,5,148,3.3783783783783785
+tumor_stage,Tumor stage,Normal-like,4,2,148,1.3513513513513513
+tumor_stage,Tumor stage,Normal-like,Missing,41,148,27.7027027027027
+tumor_stage,Tumor stage,Claudin-low,0,4,215,1.8604651162790697
+tumor_stage,Tumor stage,Claudin-low,1,63,215,29.302325581395348
+tumor_stage,Tumor stage,Claudin-low,2,86,215,40
+tumor_stage,Tumor stage,Claudin-low,3,21,215,9.767441860465116
+tumor_stage,Tumor stage,Claudin-low,Missing,41,215,19.069767441860463
+grade,Histologic grade,Overall,1,169,1971,8.574327752409944
+grade,Histologic grade,Overall,2,767,1971,38.9142567224759
+grade,Histologic grade,Overall,3,951,1971,48.24961948249619
+grade,Histologic grade,Overall,Missing,84,1971,4.26179604261796
+grade,Histologic grade,Luminal A,1,118,700,16.857142857142858
+grade,Histologic grade,Luminal A,2,378,700,54
+grade,Histologic grade,Luminal A,3,172,700,24.571428571428573
+grade,Histologic grade,Luminal A,Missing,32,700,4.571428571428571
+grade,Histologic grade,Luminal B,1,18,475,3.789473684210526
+grade,Histologic grade,Luminal B,2,186,475,39.1578947368421
+grade,Histologic grade,Luminal B,3,253,475,53.26315789473684
+grade,Histologic grade,Luminal B,Missing,18,475,3.789473684210526
+grade,Histologic grade,HER2-enriched,1,4,224,1.7857142857142858
+grade,Histologic grade,HER2-enriched,2,54,224,24.107142857142858
+grade,Histologic grade,HER2-enriched,3,155,224,69.19642857142857
+grade,Histologic grade,HER2-enriched,Missing,11,224,4.910714285714286
+grade,Histologic grade,Basal-like,1,2,209,0.9569377990430622
+grade,Histologic grade,Basal-like,2,17,209,8.133971291866029
+grade,Histologic grade,Basal-like,3,187,209,89.47368421052632
+grade,Histologic grade,Basal-like,Missing,3,209,1.4354066985645932
+grade,Histologic grade,Normal-like,1,12,148,8.108108108108109
+grade,Histologic grade,Normal-like,2,79,148,53.37837837837838
+grade,Histologic grade,Normal-like,3,48,148,32.432432432432435
+grade,Histologic grade,Normal-like,Missing,9,148,6.081081081081081
+grade,Histologic grade,Claudin-low,1,15,215,6.976744186046512
+grade,Histologic grade,Claudin-low,2,53,215,24.651162790697676
+grade,Histologic grade,Claudin-low,3,136,215,63.25581395348837
+grade,Histologic grade,Claudin-low,Missing,11,215,5.116279069767442
+er_status,ER status,Overall,Negative,472,1971,23.947234906139016
+er_status,ER status,Overall,Positive,1499,1971,76.05276509386098
+er_status,ER status,Luminal A,Negative,4,700,0.5714285714285714
+er_status,ER status,Luminal A,Positive,696,700,99.42857142857143
+er_status,ER status,Luminal B,Positive,475,475,100
+er_status,ER status,HER2-enriched,Negative,129,224,57.589285714285715
+er_status,ER status,HER2-enriched,Positive,95,224,42.410714285714285
+er_status,ER status,Basal-like,Negative,180,209,86.1244019138756
+er_status,ER status,Basal-like,Positive,29,209,13.875598086124402
+er_status,ER status,Normal-like,Negative,23,148,15.54054054054054
+er_status,ER status,Normal-like,Positive,125,148,84.45945945945945
+er_status,ER status,Claudin-low,Negative,136,215,63.25581395348837
+er_status,ER status,Claudin-low,Positive,79,215,36.74418604651163
+pr_status,PR status,Overall,Negative,935,1971,47.43784880771182
+pr_status,PR status,Overall,Positive,1036,1971,52.56215119228818
+pr_status,PR status,Luminal A,Negative,161,700,23
+pr_status,PR status,Luminal A,Positive,539,700,77
+pr_status,PR status,Luminal B,Negative,176,475,37.05263157894737
+pr_status,PR status,Luminal B,Positive,299,475,62.94736842105263
+pr_status,PR status,HER2-enriched,Negative,174,224,77.67857142857143
+pr_status,PR status,HER2-enriched,Positive,50,224,22.321428571428573
+pr_status,PR status,Basal-like,Negative,191,209,91.38755980861244
+pr_status,PR status,Basal-like,Positive,18,209,8.61244019138756
+pr_status,PR status,Normal-like,Negative,58,148,39.189189189189186
+pr_status,PR status,Normal-like,Positive,90,148,60.810810810810814
+pr_status,PR status,Claudin-low,Negative,175,215,81.3953488372093
+pr_status,PR status,Claudin-low,Positive,40,215,18.6046511627907
+her2_status,HER2 status,Overall,Negative,1724,1971,87.46829020801624
+her2_status,HER2 status,Overall,Positive,247,1971,12.531709791983765
+her2_status,HER2 status,Luminal A,Negative,679,700,97
+her2_status,HER2 status,Luminal A,Positive,21,700,3
+her2_status,HER2 status,Luminal B,Negative,430,475,90.52631578947368
+her2_status,HER2 status,Luminal B,Positive,45,475,9.473684210526315
+her2_status,HER2 status,HER2-enriched,Negative,96,224,42.857142857142854
+her2_status,HER2 status,HER2-enriched,Positive,128,224,57.142857142857146
+her2_status,HER2 status,Basal-like,Negative,187,209,89.47368421052632
+her2_status,HER2 status,Basal-like,Positive,22,209,10.526315789473685
+her2_status,HER2 status,Normal-like,Negative,134,148,90.54054054054055
+her2_status,HER2 status,Normal-like,Positive,14,148,9.45945945945946
+her2_status,HER2 status,Claudin-low,Negative,198,215,92.09302325581395
+her2_status,HER2 status,Claudin-low,Positive,17,215,7.906976744186046
+chemotherapy,Chemotherapy,Overall,NO,1559,1971,79.09690512430238
+chemotherapy,Chemotherapy,Overall,YES,412,1971,20.903094875697615
+chemotherapy,Chemotherapy,Luminal A,NO,644,700,92
+chemotherapy,Chemotherapy,Luminal A,YES,56,700,8
+chemotherapy,Chemotherapy,Luminal B,NO,428,475,90.10526315789474
+chemotherapy,Chemotherapy,Luminal B,YES,47,475,9.894736842105264
+chemotherapy,Chemotherapy,HER2-enriched,NO,136,224,60.714285714285715
+chemotherapy,Chemotherapy,HER2-enriched,YES,88,224,39.285714285714285
+chemotherapy,Chemotherapy,Basal-like,NO,96,209,45.933014354066984
+chemotherapy,Chemotherapy,Basal-like,YES,113,209,54.066985645933016
+chemotherapy,Chemotherapy,Normal-like,NO,113,148,76.35135135135135
+chemotherapy,Chemotherapy,Normal-like,YES,35,148,23.64864864864865
+chemotherapy,Chemotherapy,Claudin-low,NO,142,215,66.04651162790698
+chemotherapy,Chemotherapy,Claudin-low,YES,73,215,33.95348837209303
+hormone_therapy,Hormone therapy,Overall,NO,759,1971,38.50837138508371
+hormone_therapy,Hormone therapy,Overall,YES,1212,1971,61.49162861491629
+hormone_therapy,Hormone therapy,Luminal A,NO,223,700,31.857142857142858
+hormone_therapy,Hormone therapy,Luminal A,YES,477,700,68.14285714285714
+hormone_therapy,Hormone therapy,Luminal B,NO,96,475,20.210526315789473
+hormone_therapy,Hormone therapy,Luminal B,YES,379,475,79.78947368421052
+hormone_therapy,Hormone therapy,HER2-enriched,NO,127,224,56.69642857142857
+hormone_therapy,Hormone therapy,HER2-enriched,YES,97,224,43.30357142857143
+hormone_therapy,Hormone therapy,Basal-like,NO,149,209,71.29186602870813
+hormone_therapy,Hormone therapy,Basal-like,YES,60,209,28.708133971291865
+hormone_therapy,Hormone therapy,Normal-like,NO,59,148,39.86486486486486
+hormone_therapy,Hormone therapy,Normal-like,YES,89,148,60.13513513513514
+hormone_therapy,Hormone therapy,Claudin-low,NO,105,215,48.83720930232558
+hormone_therapy,Hormone therapy,Claudin-low,YES,110,215,51.16279069767442
+radio_therapy,Radiation therapy,Overall,NO,800,1971,40.58853373921867
+radio_therapy,Radiation therapy,Overall,YES,1171,1971,59.41146626078133
+radio_therapy,Radiation therapy,Luminal A,NO,322,700,46
+radio_therapy,Radiation therapy,Luminal A,YES,378,700,54
+radio_therapy,Radiation therapy,Luminal B,NO,176,475,37.05263157894737
+radio_therapy,Radiation therapy,Luminal B,YES,299,475,62.94736842105263
+radio_therapy,Radiation therapy,HER2-enriched,NO,90,224,40.17857142857143
+radio_therapy,Radiation therapy,HER2-enriched,YES,134,224,59.82142857142857
+radio_therapy,Radiation therapy,Basal-like,NO,68,209,32.535885167464116
+radio_therapy,Radiation therapy,Basal-like,YES,141,209,67.46411483253588
+radio_therapy,Radiation therapy,Normal-like,NO,74,148,50
+radio_therapy,Radiation therapy,Normal-like,YES,74,148,50
+radio_therapy,Radiation therapy,Claudin-low,NO,70,215,32.55813953488372
+radio_therapy,Radiation therapy,Claudin-low,YES,145,215,67.44186046511628
+breast_surgery,Breast surgery,Overall,BREAST CONSERVING,783,1971,39.726027397260275
+breast_surgery,Breast surgery,Overall,MASTECTOMY,1164,1971,59.05631659056316
+breast_surgery,Breast surgery,Overall,Missing,24,1971,1.21765601217656
+breast_surgery,Breast surgery,Luminal A,BREAST CONSERVING,278,700,39.714285714285715
+breast_surgery,Breast surgery,Luminal A,MASTECTOMY,417,700,59.57142857142857
+breast_surgery,Breast surgery,Luminal A,Missing,5,700,0.7142857142857143
+breast_surgery,Breast surgery,Luminal B,BREAST CONSERVING,206,475,43.36842105263158
+breast_surgery,Breast surgery,Luminal B,MASTECTOMY,267,475,56.21052631578947
+breast_surgery,Breast surgery,Luminal B,Missing,2,475,0.42105263157894735
+breast_surgery,Breast surgery,HER2-enriched,BREAST CONSERVING,61,224,27.232142857142858
+breast_surgery,Breast surgery,HER2-enriched,MASTECTOMY,160,224,71.42857142857143
+breast_surgery,Breast surgery,HER2-enriched,Missing,3,224,1.3392857142857142
+breast_surgery,Breast surgery,Basal-like,BREAST CONSERVING,92,209,44.01913875598086
+breast_surgery,Breast surgery,Basal-like,MASTECTOMY,111,209,53.110047846889955
+breast_surgery,Breast surgery,Basal-like,Missing,6,209,2.8708133971291865
+breast_surgery,Breast surgery,Normal-like,BREAST CONSERVING,48,148,32.432432432432435
+breast_surgery,Breast surgery,Normal-like,MASTECTOMY,98,148,66.21621621621621
+breast_surgery,Breast surgery,Normal-like,Missing,2,148,1.3513513513513513
+breast_surgery,Breast surgery,Claudin-low,BREAST CONSERVING,98,215,45.58139534883721
+breast_surgery,Breast surgery,Claudin-low,MASTECTOMY,111,215,51.627906976744185
+breast_surgery,Breast surgery,Claudin-low,Missing,6,215,2.7906976744186047
+histological_subtype,Histologic subtype,Overall,Ductal/NST,1485,1971,75.34246575342466
+histological_subtype,Histologic subtype,Overall,Lobular,145,1971,7.356671740233384
+histological_subtype,Histologic subtype,Overall,Medullary,25,1971,1.2683916793505834
+histological_subtype,Histologic subtype,Overall,Metaplastic,2,1971,0.10147133434804667
+histological_subtype,Histologic subtype,Overall,Missing,42,1971,2.13089802130898
+histological_subtype,Histologic subtype,Overall,Mixed,211,1971,10.705225773718924
+histological_subtype,Histologic subtype,Overall,Mucinous,23,1971,1.1669203450025367
+histological_subtype,Histologic subtype,Overall,Other,17,1971,0.8625063419583967
+histological_subtype,Histologic subtype,Overall,Tubular/ cribriform,21,1971,1.06544901065449
+histological_subtype,Histologic subtype,Luminal A,Ductal/NST,487,700,69.57142857142857
+histological_subtype,Histologic subtype,Luminal A,Lobular,64,700,9.142857142857142
+histological_subtype,Histologic subtype,Luminal A,Missing,9,700,1.2857142857142858
+histological_subtype,Histologic subtype,Luminal A,Mixed,109,700,15.571428571428571
+histological_subtype,Histologic subtype,Luminal A,Mucinous,8,700,1.1428571428571428
+histological_subtype,Histologic subtype,Luminal A,Other,5,700,0.7142857142857143
+histological_subtype,Histologic subtype,Luminal A,Tubular/ cribriform,18,700,2.5714285714285716
+histological_subtype,Histologic subtype,Luminal B,Ductal/NST,377,475,79.36842105263158
+histological_subtype,Histologic subtype,Luminal B,Lobular,22,475,4.631578947368421
+histological_subtype,Histologic subtype,Luminal B,Medullary,2,475,0.42105263157894735
+histological_subtype,Histologic subtype,Luminal B,Missing,6,475,1.263157894736842
+histological_subtype,Histologic subtype,Luminal B,Mixed,51,475,10.736842105263158
+histological_subtype,Histologic subtype,Luminal B,Mucinous,12,475,2.526315789473684
+histological_subtype,Histologic subtype,Luminal B,Other,5,475,1.0526315789473684
+histological_subtype,Histologic subtype,HER2-enriched,Ductal/NST,189,224,84.375
+histological_subtype,Histologic subtype,HER2-enriched,Lobular,14,224,6.25
+histological_subtype,Histologic subtype,HER2-enriched,Medullary,5,224,2.232142857142857
+histological_subtype,Histologic subtype,HER2-enriched,Missing,5,224,2.232142857142857
+histological_subtype,Histologic subtype,HER2-enriched,Mixed,9,224,4.017857142857143
+histological_subtype,Histologic subtype,HER2-enriched,Mucinous,1,224,0.44642857142857145
+histological_subtype,Histologic subtype,HER2-enriched,Other,1,224,0.44642857142857145
+histological_subtype,Histologic subtype,Basal-like,Ductal/NST,187,209,89.47368421052632
+histological_subtype,Histologic subtype,Basal-like,Lobular,4,209,1.9138755980861244
+histological_subtype,Histologic subtype,Basal-like,Medullary,4,209,1.9138755980861244
+histological_subtype,Histologic subtype,Basal-like,Missing,7,209,3.349282296650718
+histological_subtype,Histologic subtype,Basal-like,Mixed,6,209,2.8708133971291865
+histological_subtype,Histologic subtype,Basal-like,Other,1,209,0.4784688995215311
+histological_subtype,Histologic subtype,Normal-like,Ductal/NST,94,148,63.513513513513516
+histological_subtype,Histologic subtype,Normal-like,Lobular,26,148,17.56756756756757
+histological_subtype,Histologic subtype,Normal-like,Medullary,1,148,0.6756756756756757
+histological_subtype,Histologic subtype,Normal-like,Missing,4,148,2.7027027027027026
+histological_subtype,Histologic subtype,Normal-like,Mixed,19,148,12.837837837837839
+histological_subtype,Histologic subtype,Normal-like,Other,3,148,2.027027027027027
+histological_subtype,Histologic subtype,Normal-like,Tubular/ cribriform,1,148,0.6756756756756757
+histological_subtype,Histologic subtype,Claudin-low,Ductal/NST,151,215,70.23255813953489
+histological_subtype,Histologic subtype,Claudin-low,Lobular,15,215,6.976744186046512
+histological_subtype,Histologic subtype,Claudin-low,Medullary,13,215,6.046511627906977
+histological_subtype,Histologic subtype,Claudin-low,Metaplastic,2,215,0.9302325581395349
+histological_subtype,Histologic subtype,Claudin-low,Missing,11,215,5.116279069767442
+histological_subtype,Histologic subtype,Claudin-low,Mixed,17,215,7.906976744186046
+histological_subtype,Histologic subtype,Claudin-low,Mucinous,2,215,0.9302325581395349
+histological_subtype,Histologic subtype,Claudin-low,Other,2,215,0.9302325581395349
+histological_subtype,Histologic subtype,Claudin-low,Tubular/ cribriform,2,215,0.9302325581395349
+cohort,Component cohort,Overall,1,518,1971,26.28107559614409
+cohort,Component cohort,Overall,2,287,1971,14.561136478944698
+cohort,Component cohort,Overall,3,760,1971,38.55910705225774
+cohort,Component cohort,Overall,4,237,1971,12.024353120243532
+cohort,Component cohort,Overall,5,169,1971,8.574327752409944
+cohort,Component cohort,Luminal A,1,170,700,24.285714285714285
+cohort,Component cohort,Luminal A,2,104,700,14.857142857142858
+cohort,Component cohort,Luminal A,3,308,700,44
+cohort,Component cohort,Luminal A,4,65,700,9.285714285714286
+cohort,Component cohort,Luminal A,5,53,700,7.571428571428571
+cohort,Component cohort,Luminal B,1,129,475,27.157894736842106
+cohort,Component cohort,Luminal B,2,76,475,16
+cohort,Component cohort,Luminal B,3,163,475,34.31578947368421
+cohort,Component cohort,Luminal B,4,67,475,14.105263157894736
+cohort,Component cohort,Luminal B,5,40,475,8.421052631578947
+cohort,Component cohort,HER2-enriched,1,38,224,16.964285714285715
+cohort,Component cohort,HER2-enriched,2,29,224,12.946428571428571
+cohort,Component cohort,HER2-enriched,3,90,224,40.17857142857143
+cohort,Component cohort,HER2-enriched,4,41,224,18.303571428571427
+cohort,Component cohort,HER2-enriched,5,26,224,11.607142857142858
+cohort,Component cohort,Basal-like,1,37,209,17.70334928229665
+cohort,Component cohort,Basal-like,2,28,209,13.397129186602871
+cohort,Component cohort,Basal-like,3,93,209,44.49760765550239
+cohort,Component cohort,Basal-like,4,33,209,15.789473684210526
+cohort,Component cohort,Basal-like,5,18,209,8.61244019138756
+cohort,Component cohort,Normal-like,1,52,148,35.13513513513514
+cohort,Component cohort,Normal-like,2,10,148,6.756756756756757
+cohort,Component cohort,Normal-like,3,54,148,36.486486486486484
+cohort,Component cohort,Normal-like,4,12,148,8.108108108108109
+cohort,Component cohort,Normal-like,5,20,148,13.513513513513514
+cohort,Component cohort,Claudin-low,1,92,215,42.7906976744186
+cohort,Component cohort,Claudin-low,2,40,215,18.6046511627907
+cohort,Component cohort,Claudin-low,3,52,215,24.186046511627907
+cohort,Component cohort,Claudin-low,4,19,215,8.837209302325581
+cohort,Component cohort,Claudin-low,5,12,215,5.5813953488372094

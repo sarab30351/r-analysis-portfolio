@@ -1,0 +1,13 @@
+endpoint,molecular_subtype,participants,events,censored,event_percent
+Overall survival,Luminal A,700,378,322,54
+Overall survival,Luminal B,475,315,160,66.3157894736842
+Overall survival,HER2-enriched,224,157,67,70.08928571428571
+Overall survival,Basal-like,209,115,94,55.02392344497608
+Overall survival,Normal-like,148,79,69,53.37837837837838
+Overall survival,Claudin-low,215,94,121,43.72093023255814
+Relapse-free survival,Luminal A,697,229,468,32.85509325681492
+Relapse-free survival,Luminal B,469,221,248,47.12153518123667
+Relapse-free survival,HER2-enriched,224,116,108,51.785714285714285
+Relapse-free survival,Basal-like,209,93,116,44.49760765550239
+Relapse-free survival,Normal-like,146,63,83,43.15068493150685
+Relapse-free survival,Claudin-low,215,68,147,31.627906976744185

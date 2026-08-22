@@ -1,0 +1,16 @@
+variable,variable_label,n_total,n_missing,percent_missing
+age_at_diagnosis,Age at diagnosis (years),1971,0,0
+npi,Nottingham Prognostic Index,1971,0,0
+tumor_size,Tumor size,1971,23,1.1669203450025367
+lymph_nodes_examined_positive,Positive lymph nodes,1971,74,3.754439370877727
+tumor_stage,Tumor stage,1971,510,25.875190258751903
+grade,Histologic grade,1971,84,4.26179604261796
+er_status,ER status,1971,0,0
+pr_status,PR status,1971,0,0
+her2_status,HER2 status,1971,0,0
+chemotherapy,Chemotherapy,1971,0,0
+hormone_therapy,Hormone therapy,1971,0,0
+radio_therapy,Radiation therapy,1971,0,0
+breast_surgery,Breast surgery,1971,24,1.21765601217656
+histological_subtype,Histologic subtype,1971,42,2.13089802130898
+cohort,Component cohort,1971,0,0
