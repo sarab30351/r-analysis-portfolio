@@ -1,0 +1,13 @@
+endpoint,reason,n
+Overall survival,Missing molecular subtype,529
+Overall survival,Unclassified molecular subtype,6
+Overall survival,Breast angiosarcoma,2
+Overall survival,Censored at month zero,1
+Overall survival,Included,1971
+Relapse-free survival,Missing molecular subtype,529
+Relapse-free survival,Unclassified molecular subtype,6
+Relapse-free survival,Breast angiosarcoma,2
+Relapse-free survival,Missing relapse-free-survival status,1
+Relapse-free survival,Censored at month zero,1
+Relapse-free survival,Known stage IV disease at baseline,10
+Relapse-free survival,Included,1960
