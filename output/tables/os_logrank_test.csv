@@ -1,0 +1,2 @@
+endpoint,test,chi_square,degrees_freedom,p_value
+Overall survival,Global log-rank test,54.74302672535667,5,1.474315296313578e-10
