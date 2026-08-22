@@ -152,9 +152,7 @@ Patients without one of these events are censored at their recorded follow-up ti
 * Event: `RFS_STATUS = 1:Recurred`
 * Censored: `RFS_STATUS = 0:Not Recurred`
 
-Because this is a composite endpoint, it will be described as dataset-defined relapse-free survival rather than recurrence alone.
-
-Patients with an event recorded at month zero are retained because they contribute outcome information. Patients censored at month zero are excluded because they contribute neither observable follow-up nor an event.
+Three patients have an RFS event recorded at month zero. Review of the available clinical fields found no recorded stage IV disease or other evidence establishing that relapse preceded baseline; all three also have recorded breast surgery and subsequent overall-survival follow-up. They will therefore be retained as observed early events, while acknowledging that the data do not provide exact event dates within the month. Patients censored at month zero will be excluded because they contribute neither observable follow-up nor an event.
 
 ## 5. Primary exposure
 
@@ -195,7 +193,7 @@ NPI combines information from:
 
 NPI will therefore not be entered into the same model as all three of its components.
 
-### Continuous-variable modeling
+### Continuous variable modeling
 
 Age and NPI will remain continuous. They will not be divided into arbitrary categories.
 
@@ -243,7 +241,7 @@ Categorical variables will be summarized using counts and percentages.
 
 Continuous variables will be summarized using means and standard deviations or medians and interquartile ranges, depending on their distributions.
 
-Routine hypothesis testing will not be used in the descriptive table because molecular-subtype groups are not randomized groups.
+Routine hypothesis testing will not be used in the descriptive table because molecular subtype groups are not randomized groups.
 
 ## 8. Unadjusted survival analysis
 
@@ -419,11 +417,17 @@ The overall-survival cohort will be presented as:
 The relapse-free-survival cohort will be presented as:
 
 ```text
+The relapse-free-survival cohort will be presented as:
+
+```text
 1,972 patients meeting tumor and subtype criteria
-  - 1 missing relapse-free event status
+  - 1 missing relapse-free survival event status
   - 1 censored at month zero
-= 1,970 patients in the relapse-free-survival cohort
+  - 10 with known stage IV disease at baseline
+= 1,960 patients in the relapse-free survival cohort
 ```
+
+The final relapse-free-survival cohort contains 790 events and 1,170 censored observations. The three patients with events recorded at month zero remain included.
 
 Every exclusion will be implemented in code and recorded in a participant-flow table.
 
