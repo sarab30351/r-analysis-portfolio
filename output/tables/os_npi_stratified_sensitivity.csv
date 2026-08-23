@@ -1,0 +1,6 @@
+"interval","comparison","primary_hazard_ratio","primary_lower_95_ci","primary_upper_95_ci","sensitivity_hazard_ratio","sensitivity_lower_95_ci","sensitivity_upper_95_ci","sensitivity_p_value","percent_change","sensitivity_p_value_display"
+"2 to 5 years","Luminal B vs Luminal A",1.83,1.336,2.506,1.826,1.33,2.507,0.000197626,-0.2,"<0.001"
+"2 to 5 years","HER2-enriched vs Luminal A",2.287,1.575,3.319,2.388,1.641,3.475,5.43989e-06,4.4,"<0.001"
+"2 to 5 years","Basal-like vs Luminal A",2.049,1.367,3.07,2.113,1.409,3.17,0.000298957,3.1,"<0.001"
+"2 to 5 years","Normal-like vs Luminal A",1.672,1.007,2.776,1.567,0.942,2.606,0.0837064,-6.3,"0.084"
+"2 to 5 years","Claudin-low vs Luminal A",1.024,0.621,1.69,1.003,0.606,1.66,0.991342,-2.1,"0.991"

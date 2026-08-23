@@ -1,0 +1,5 @@
+"interval","participants","deaths","clinical_log_likelihood","extended_log_likelihood","likelihood_ratio_chisq","degrees_of_freedom","p_value","p_value_holm_4_intervals","p_value_display","p_value_holm_4_intervals_display"
+"0 to 2 years",1971,119,-688.703289107203,-658.425884959771,60.555,5,9.33394e-12,3.73358e-11,"<0.001","<0.001"
+"2 to 5 years",1824,307,-1740.10807944208,-1725.10640323795,30.003,5,1.47262e-05,4.41786e-05,"<0.001","<0.001"
+"5 to 10 years",1482,331,-1829.88961789314,-1825.3414140009,9.096,5,0.10528,0.10528,"0.105","0.105"
+"Beyond 10 years",949,381,-1717.97664925288,-1711.28325427901,13.387,5,0.0200116,0.0400231,"0.020","0.040"
