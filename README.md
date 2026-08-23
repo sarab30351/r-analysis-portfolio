@@ -1,6 +1,10 @@
 # r-analysis-portfolio
 This is the repository to my new project conducted in R using publicly available health data, more details will come soon.
 
+### *PROJECT UPDATE* 23.08: The primary overall survival analysis is complete. The initial full follow-up Cox model showed substantial violations of the proportional hazards assumption, so the final analysis used interval-specific Cox models for 0-2, 2-5, 5-10, and beyond 10 years. Each model adjusted for age at diagnosis and Nottingham Prognostic Index using natural cubic splines and was stratified by source cohort. Holm adjustment was applied separately to the four global subtype tests and to the 20 comparisons between individual subtypes and Luminal A across the four follow-up intervals. HER2-enriched, Basal-like, Normal-like, and Claudin-low disease had higher mortality hazards than Luminal A during the first two years; Luminal B, HER2-enriched, and Basal-like remained elevated during years two to five. There was insufficient evidence of subtype differences during years five to ten. Beyond ten years, Basal-like disease had a lower estimated hazard among participants still at risk, but this conditional late survivor result does not imply an overall survival advantage. Age- and NPI-stratified sensitivity analyses produced similar estimates, with all changes in subtype hazard ratios below 10%. The final tables, proportional hazards diagnostics, sensitivity analyses, and interval-specific hazard-ratio figure are generated reproducibly by scripts `06`–`12`.
+
+### P.S: The originally planned C-index comparison was removed because the final analysis no longer relies on a single full-follow-up model with constant hazard ratios, making one overall discrimination estimate difficult to interpret.
+
 # Investigation into the prognostic contribution of molecular subtype in breast cancer
 
 ## A survival analysis of the METABRIC cohort
