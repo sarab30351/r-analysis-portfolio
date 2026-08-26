@@ -5,6 +5,8 @@ This is the repository to my new project conducted in R using publicly available
 
 ### P.S: The originally planned C-index comparison was removed because the final analysis no longer relies on a single full follow-up model with constant hazard ratios, making one overall discrimination estimate difficult to interpret.
 
+### *Document status: The dated updates above report changes made during model development. The original analysis plan is retained below for transparency. Where the two conflict, the most recent dated update supersedes the original plan.*
+
 # Investigation into the prognostic contribution of molecular subtype in breast cancer
 
 ## A survival analysis of the METABRIC cohort
