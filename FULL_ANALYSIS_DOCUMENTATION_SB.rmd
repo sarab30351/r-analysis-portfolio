@@ -1,0 +1,149 @@
+---
+title: "FULL_ANALYSIS_DOCUMENTATION_SB"
+author: "SARA.B"
+date: "2026-08-22"
+output: html_document
+---
+# Create repository folders 
+
+```{r}
+folders <- c(
+  "R",
+  "data-raw",
+  "data-derived",
+  "output/figures",
+  "output/tables"
+)
+
+invisible(
+  lapply(
+    folders,
+    dir.create,
+    recursive = TRUE,
+    showWarnings = FALSE
+  )
+)
+```
+
+# Create and commmit gitignore
+
+```{r}
+ignore_lines <- c(
+  ".Rproj.user/",
+  ".Rhistory",
+  ".RData",
+  ".Ruserdata",
+  ".DS_Store",
+  "data-raw/*",
+  "!data-raw/README.md",
+  "data-derived/*",
+  "!data-derived/README.md"
+)
+
+if (file.exists(".gitignore")) {
+  existing_lines <- readLines(".gitignore", warn = FALSE)
+  writeLines(unique(c(existing_lines, ignore_lines)), ".gitignore")
+} else {
+  writeLines(ignore_lines, ".gitignore")
+}
+
+# commit and push #
+system("git add .gitignore")
+system('git commit -m "chore: protect local data files"')
+system("git push")
+```
+
+
+# Organize data in proper folders by copying #
+
+
+# Create raw data README.md and commit and push #
+
+
+# Install and initialize renv for package version tracking and other necessary packages #
+
+```{r}
+options(
+  repos = c(CRAN = "https://cloud.r-project.org"),
+  download.file.method = "libcurl"
+)
+
+install.packages("renv")
+
+renv::install(c(
+  "here",
+  "readr",
+  "dplyr"
+))
+
+renv::snapshot()
+
+renv::status()
+```
+
+# Commit and push renv reproducible environment #
+
+```{r}
+system("git add .Rprofile renv.lock renv")
+
+system('git commit -m "chore: initialize reproducible R environment"')
+system("git push")
+```
+
+
+# Create R script for validating: 01_import_validate_data.R # 
+
+
+# Commit and push the script #
+
+
+# Create R script to prepare variables: 02_prepare_data.R #
+
+
+# Commit and push the script #
+
+
+# Create R script to filter participants for OS and RFS: 03_define_cohorts #
+
+
+# Commit and push the script #
+
+
+# Descriptive analysis time # Install packages # Commit and push #
+
+```{r}
+renv::install(c(
+  "survival",
+  "ggplot2",
+  "tidyr"
+))
+
+renv::snapshot()
+renv::status()
+
+system("git add renv.lock")
+system('git commit -m "chore: add descriptive analysis dependencies"')
+system("git push")
+```
+ 
+# Create R script for descriptive stats: 04.descriptive_analysis.R #
+
+
+# Commit and push script #
+
+
+# Create R script for unadjusted OS analysis: 05_survival_analysis.R #
+
+
+# Commit and push script #
+
+
+# Create R script for running two Cox models: 06_cox_models.R #
+
+# Models needed refining, everything is documented in script 06-12 # Final model for adjusted overall survival endpoint is found in script 08 (08_refined_interval_cox_models.R) # Primary results are found in both script 08 and script 11. However, they will be found here as well #
+
+
+## The results demonstrate that the association between molecular subtype and mortality is strongly time dependent. During the first two years after diagnosis, HER2-enriched, Basal-like, Normal-like, and Claudin-low tumors had substantially higher adjusted mortality hazards than Luminal A, with all four comparisons remaining significant after multiplicity adjustment. Basal-like disease showed the largest early association. During years two to five, the relative hazards attenuated but remained elevated for Luminal B, HER2-enriched, and Basal-like disease. The Normal-like estimate was borderline in the primary model, did not remain significant after adjustment, and was not statistically significant in either sensitivity analysis. Claudin-low disease no longer differed from Luminal A. During years five to ten, there was no evidence of an overall molecular subtype difference after multiplicity adjustment, and no individual subtype comparison remained significant. Beyond ten years, the overall subtype term was again associated with mortality, while Basal-like disease was the only individual comparison that remained significant, with a lower estimated hazard among participants remaining at risk after ten years. This conditional late-survivor estimate does not imply that Basal-like disease is generally protective, particularly given its very high early mortality hazard and the small number of late Basal-like deaths. Sensitivity analyses using age group and NPI prognostic group strata produced similar subtype hazard ratio estimates, with all absolute changes below 10%, and the overall interval-level conclusions were unchanged. However, these analyses should not be interpreted as eliminating every proportional hazards concern because isolated diagnostic signals remained. The final primary results are therefore the four interval-specific hazard ratio sets from the age and NPI spline-adjusted, source cohort stratified models, with the age  and NPI stratified models serving as supporting sensitivity analyses. For the primary analysis, Holm adjustment was applied separately to the four interval-level global likelihood-ratio tests and to the 20 subtype and Luminal A contrasts. Conclusions for individual subtype comparisons are based on the resulting adjusted p-values. The displayed 95% confidence intervals are pointwise and were not adjusted for multiplicity. Diagnostic, preliminary, and sensitivity analysis p-values were not included in these primary adjustment families. Spline basis coefficients for age and NPI are not presented individually because they do not have straightforward standalone clinical interpretations. ##
+
+# Commit and push scripts 06-12 #
+
