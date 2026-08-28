@@ -1,0 +1,61 @@
+"interval","comparison","influence_rank","patient_id","participant_subtype","interval_event","dfbetas","absolute_dfbetas"
+"0 to 2 years","Luminal B vs Luminal A",1,"MB-4649","Luminal B",1,0.2144,0.2144
+"0 to 2 years","Luminal B vs Luminal A",2,"MB-5318","Luminal B",1,0.1988,0.1988
+"0 to 2 years","Luminal B vs Luminal A",3,"MB-5475","Luminal B",1,0.1918,0.1918
+"0 to 2 years","HER2-enriched vs Luminal A",1,"MB-7148","Luminal A",1,-0.2378,0.2378
+"0 to 2 years","HER2-enriched vs Luminal A",2,"MB-5520","Luminal A",1,-0.2239,0.2239
+"0 to 2 years","HER2-enriched vs Luminal A",3,"MB-5452","Luminal A",1,-0.1889,0.1889
+"0 to 2 years","Basal-like vs Luminal A",1,"MB-5520","Luminal A",1,-0.2563,0.2563
+"0 to 2 years","Basal-like vs Luminal A",2,"MB-7148","Luminal A",1,-0.2298,0.2298
+"0 to 2 years","Basal-like vs Luminal A",3,"MB-4033","Luminal A",1,-0.2013,0.2013
+"0 to 2 years","Normal-like vs Luminal A",1,"MB-5110","Normal-like",1,0.2464,0.2464
+"0 to 2 years","Normal-like vs Luminal A",2,"MB-6092","Normal-like",1,0.2379,0.2379
+"0 to 2 years","Normal-like vs Luminal A",3,"MB-4695","Normal-like",1,0.2235,0.2235
+"0 to 2 years","Claudin-low vs Luminal A",1,"MB-5520","Luminal A",1,-0.1983,0.1983
+"0 to 2 years","Claudin-low vs Luminal A",2,"MB-7148","Luminal A",1,-0.1953,0.1953
+"0 to 2 years","Claudin-low vs Luminal A",3,"MB-5431","Claudin-low",1,0.1918,0.1918
+"2 to 5 years","Luminal B vs Luminal A",1,"MB-6200","Luminal A",1,-0.1131,0.1131
+"2 to 5 years","Luminal B vs Luminal A",2,"MB-0538","Luminal A",1,-0.1114,0.1114
+"2 to 5 years","Luminal B vs Luminal A",3,"MB-0666","Luminal A",1,-0.1103,0.1103
+"2 to 5 years","HER2-enriched vs Luminal A",1,"MB-0652","HER2-enriched",0,-0.1489,0.1489
+"2 to 5 years","HER2-enriched vs Luminal A",2,"MB-0436","HER2-enriched",0,-0.1319,0.1319
+"2 to 5 years","HER2-enriched vs Luminal A",3,"MB-7262","HER2-enriched",0,-0.1285,0.1285
+"2 to 5 years","Basal-like vs Luminal A",1,"MB-0163","Basal-like",0,-0.1509,0.1509
+"2 to 5 years","Basal-like vs Luminal A",2,"MB-5470","Basal-like",1,0.1467,0.1467
+"2 to 5 years","Basal-like vs Luminal A",3,"MB-5225","Basal-like",1,0.1249,0.1249
+"2 to 5 years","Normal-like vs Luminal A",1,"MB-4871","Normal-like",1,0.1994,0.1994
+"2 to 5 years","Normal-like vs Luminal A",2,"MB-7057","Normal-like",1,0.1947,0.1947
+"2 to 5 years","Normal-like vs Luminal A",3,"MB-6226","Normal-like",1,0.1903,0.1903
+"2 to 5 years","Claudin-low vs Luminal A",1,"MB-0333","Claudin-low",1,0.2132,0.2132
+"2 to 5 years","Claudin-low vs Luminal A",2,"MB-5311","Claudin-low",1,0.1959,0.1959
+"2 to 5 years","Claudin-low vs Luminal A",3,"MB-4931","Claudin-low",1,0.1935,0.1935
+"5 to 10 years","Luminal B vs Luminal A",1,"MB-4937","Luminal B",1,0.0856,0.0856
+"5 to 10 years","Luminal B vs Luminal A",2,"MB-5273","Luminal B",1,0.0811,0.0811
+"5 to 10 years","Luminal B vs Luminal A",3,"MB-7097","Luminal B",1,0.0801,0.0801
+"5 to 10 years","HER2-enriched vs Luminal A",1,"MB-5275","HER2-enriched",1,0.142,0.142
+"5 to 10 years","HER2-enriched vs Luminal A",2,"MB-3470","HER2-enriched",1,0.1418,0.1418
+"5 to 10 years","HER2-enriched vs Luminal A",3,"MB-4119","HER2-enriched",1,0.1399,0.1399
+"5 to 10 years","Basal-like vs Luminal A",1,"MB-0539","Basal-like",1,0.227,0.227
+"5 to 10 years","Basal-like vs Luminal A",2,"MB-5295","Basal-like",1,0.2064,0.2064
+"5 to 10 years","Basal-like vs Luminal A",3,"MB-5634","Basal-like",1,0.1983,0.1983
+"5 to 10 years","Normal-like vs Luminal A",1,"MB-7227","Normal-like",1,0.1875,0.1875
+"5 to 10 years","Normal-like vs Luminal A",2,"MB-4381","Normal-like",1,0.1813,0.1813
+"5 to 10 years","Normal-like vs Luminal A",3,"MB-0305","Normal-like",1,0.1765,0.1765
+"5 to 10 years","Claudin-low vs Luminal A",1,"MB-5177","Claudin-low",1,0.1781,0.1781
+"5 to 10 years","Claudin-low vs Luminal A",2,"MB-3271","Claudin-low",1,0.1659,0.1659
+"5 to 10 years","Claudin-low vs Luminal A",3,"MB-5534","Claudin-low",1,0.1658,0.1658
+"Beyond 10 years","Luminal B vs Luminal A",1,"MB-4839","Luminal B",0,-0.238,0.238
+"Beyond 10 years","Luminal B vs Luminal A",2,"MB-4661","Luminal A",0,0.1588,0.1588
+"Beyond 10 years","Luminal B vs Luminal A",3,"MB-4642","Luminal B",1,-0.1273,0.1273
+"Beyond 10 years","HER2-enriched vs Luminal A",1,"MB-5366","HER2-enriched",0,-0.2775,0.2775
+"Beyond 10 years","HER2-enriched vs Luminal A",2,"MB-4079","HER2-enriched",1,-0.2601,0.2601
+"Beyond 10 years","HER2-enriched vs Luminal A",3,"MB-4189","HER2-enriched",1,-0.2307,0.2307
+"Beyond 10 years","Basal-like vs Luminal A",1,"MB-2846","Basal-like",1,0.2595,0.2595
+"Beyond 10 years","Basal-like vs Luminal A",2,"MB-0200","Basal-like",1,0.2503,0.2503
+"Beyond 10 years","Basal-like vs Luminal A",3,"MB-7073","Basal-like",1,0.2468,0.2468
+"Beyond 10 years","Normal-like vs Luminal A",1,"MB-7228","Normal-like",0,-0.3025,0.3025
+"Beyond 10 years","Normal-like vs Luminal A",2,"MB-6042","Normal-like",0,-0.2439,0.2439
+"Beyond 10 years","Normal-like vs Luminal A",3,"MB-5656","Normal-like",1,0.1903,0.1903
+"Beyond 10 years","Claudin-low vs Luminal A",1,"MB-4942","Claudin-low",1,0.1809,0.1809
+"Beyond 10 years","Claudin-low vs Luminal A",2,"MB-7104","Claudin-low",1,0.1764,0.1764
+"Beyond 10 years","Claudin-low vs Luminal A",3,"MB-4904","Claudin-low",1,0.1685,0.1685

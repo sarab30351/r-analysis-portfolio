@@ -1,0 +1,25 @@
+"interval","molecular_subtype","participants_at_risk","deaths"
+"0 to 2 years","Luminal A",700,16
+"0 to 2 years","Luminal B",475,15
+"0 to 2 years","HER2-enriched",224,24
+"0 to 2 years","Basal-like",209,36
+"0 to 2 years","Normal-like",148,11
+"0 to 2 years","Claudin-low",215,17
+"2 to 5 years","Luminal A",676,70
+"2 to 5 years","Luminal B",451,99
+"2 to 5 years","HER2-enriched",197,53
+"2 to 5 years","Basal-like",173,44
+"2 to 5 years","Normal-like",136,20
+"2 to 5 years","Claudin-low",191,21
+"5 to 10 years","Luminal A",591,115
+"5 to 10 years","Luminal B",345,106
+"5 to 10 years","HER2-enriched",141,37
+"5 to 10 years","Basal-like",126,21
+"5 to 10 years","Normal-like",115,25
+"5 to 10 years","Claudin-low",164,27
+"Beyond 10 years","Luminal A",393,177
+"Beyond 10 years","Luminal B",204,95
+"Beyond 10 years","HER2-enriched",86,43
+"Beyond 10 years","Basal-like",87,14
+"Beyond 10 years","Normal-like",74,23
+"Beyond 10 years","Claudin-low",105,29
