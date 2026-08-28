@@ -4,8 +4,8 @@ Breast cancer can be split into molecular "subtypes" (like those caught by the P
 
 Most past studies accounted for this by adjusting for standard clinical and pathology factors, or by using existing risk-scoring tools. And the long-term studies that used the METABRIC dataset mostly looked at a different kind of genomic classification, or only looked at specific smaller groups of patients.
 
-What's still unclear (ad why I chose to investigate it) is this: if you look at PAM50/Claudin-low subtypes on top of an already established risk tool (the Nottingham Prognostic Index) and age, and you allow for the fact that each subtype's effect on risk can rise or fall at different points during follow-up — does subtype still add meaningful predictive information? That question hasn't been fully answered yet (atleast to my knowledge and research).
-
+What's still unclear (ad why I chose to investigate it) is this: if you look at PAM50/Claudin-low subtypes on top of an already established risk tool (the Nottingham Prognostic Index) and age, and you allow for the fact that each subtype's effect on risk can rise or fall at different points during follow-up — does subtype still add meaningful prognostic information? That question hasn't been fully answered yet (atleast to my knowledge and research).
+I also wanted to give a prediction element to this project, but I'm still contemplating about it (mostly because of the limited applicability; it would be great for practice but it would barely add any value).
 
 Talking about research, here's some literature on this topic, in chronological order of developments:
 
