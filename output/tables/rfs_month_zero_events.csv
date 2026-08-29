@@ -1,0 +1,4 @@
+"patient_id","molecular_subtype","tumor_stage","stage_missing","breast_surgery","rfs_months","os_months","os_event"
+"MB-6194","Normal-like",2,FALSE,"MASTECTOMY",0,52.4666666666667,1
+"MB-6230","Luminal A",,TRUE,"MASTECTOMY",0,74.8,1
+"MB-6363","Basal-like",,TRUE,"MASTECTOMY",0,16.7,1

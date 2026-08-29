@@ -1,0 +1,37 @@
+"molecular_subtype","time_years","n_risk"
+"Luminal A",0,697
+"Luminal A",5,534
+"Luminal A",10,338
+"Luminal A",15,180
+"Luminal A",20,61
+"Luminal A",25,6
+"Luminal B",0,469
+"Luminal B",5,298
+"Luminal B",10,171
+"Luminal B",15,74
+"Luminal B",20,27
+"Luminal B",25,1
+"HER2-enriched",0,224
+"HER2-enriched",5,126
+"HER2-enriched",10,77
+"HER2-enriched",15,48
+"HER2-enriched",20,18
+"HER2-enriched",25,2
+"Basal-like",0,209
+"Basal-like",5,116
+"Basal-like",10,79
+"Basal-like",15,46
+"Basal-like",20,13
+"Basal-like",25,1
+"Normal-like",0,146
+"Normal-like",5,102
+"Normal-like",10,61
+"Normal-like",15,25
+"Normal-like",20,10
+"Normal-like",25,0
+"Claudin-low",0,215
+"Claudin-low",5,156
+"Claudin-low",10,101
+"Claudin-low",15,60
+"Claudin-low",20,17
+"Claudin-low",25,0
