@@ -1,0 +1,8 @@
+"variable","knot_role","percentile","value"
+"Age at diagnosis","Lower boundary",0.05,38.7785
+"Age at diagnosis","Internal knot 1",0.35,56.3265
+"Age at diagnosis","Internal knot 2",0.65,67.3475
+"Age at diagnosis","Upper boundary",0.95,81.149
+"NPI","Lower boundary",0.05,2.0359
+"NPI","Internal knot",0.5,4.04
+"NPI","Upper boundary",0.95,6.06

@@ -1,0 +1,2 @@
+"endpoint","comparison","participants","rfs_events","clinical_log_likelihood","extended_log_likelihood","likelihood_ratio_chisq","degrees_of_freedom","p_value"
+"Relapse-free survival","Extended molecular subtype model versus clinical model",1960,790,-4428.11100839613,-4409.64654014376,36.9289365047498,5,6.1891899053005e-07
