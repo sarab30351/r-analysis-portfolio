@@ -1,0 +1,5 @@
+"interval","start_year","end_year","participants_at_risk","rfs_events","clinical_parameters","extended_parameters"
+"0 to 2 years",0,2,1960,236,5,10
+"2 to 5 years",2,5,1678,249,5,10
+"5 to 10 years",5,10,1332,180,5,10
+"Beyond 10 years",10,Inf,827,125,5,10
