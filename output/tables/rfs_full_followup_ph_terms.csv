@@ -1,0 +1,5 @@
+"term","chi_square","degrees_of_freedom","p_value","diagnostic_flag"
+"Age spline",14.6055264105193,3,0.0021867545686823,"Evidence against proportional hazards"
+"NPI spline",15.3872492112047,2,0.000455723357088336,"Evidence against proportional hazards"
+"Molecular subtype",81.7308564644966,5,3.64425973655903e-16,"Evidence against proportional hazards"
+"Global model",86.397059469284,10,2.76636792180598e-14,"Evidence against proportional hazards"
