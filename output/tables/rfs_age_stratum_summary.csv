@@ -1,0 +1,6 @@
+"age_stratum","lower_age_years","upper_age_years","participants_at_risk","rfs_events"
+"Age quintile 1",21.93,49.348,245,23
+"Age quintile 2",49.348,58.338,278,28
+"Age quintile 3",58.338,65.524,282,50
+"Age quintile 4",65.524,72.57,288,35
+"Age quintile 5",72.57,96.29,239,44
