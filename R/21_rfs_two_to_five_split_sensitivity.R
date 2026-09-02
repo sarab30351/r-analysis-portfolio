@@ -1,11 +1,11 @@
 # 21_rfs_two_to_five_split_sensitivity.R
 
-# Purpose: Explore the residual molecular-subtype proportional-hazards signal within the primary 2-to-5-year RFS interval.
+# Purpose: Explore the residual molecular-subtype proportional hazards signal within the primary 2-to-5-year RFS interval.
 
 # The interval is divided at 3.5 years, its neutral midpoint. This boundary was not selected from an estimated change point or an individual subtype curve.
 
 # The two models are exploratory sensitivity analyses. They do not replace the primary 2-to-5-year model automatically and their p-values are not included in the primary multiplicity-adjustment families.
-
+# Update: They will lol.
 
 # 1. Check packages and project location
 
