@@ -1,0 +1,21 @@
+"analysis","boundary_year","phase","interval","term","comparison","hazard_ratio","lower_95_ci","upper_95_ci","p_value"
+"Alternative RFS boundary sensitivity",3,"Earlier portion","2 to 3 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",1.83656694426916,1.09876152794297,3.06980000209585,0.0203787218347662
+"Alternative RFS boundary sensitivity",3,"Earlier portion","2 to 3 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",2.69268467484341,1.5265068776859,4.74976619111471,0.000624686551254038
+"Alternative RFS boundary sensitivity",3,"Earlier portion","2 to 3 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",1.96433993361165,1.03286554212795,3.73585061888279,0.0395364115986964
+"Alternative RFS boundary sensitivity",3,"Earlier portion","2 to 3 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",0.723419833568797,0.251311019168776,2.08242462798355,0.548386644813092
+"Alternative RFS boundary sensitivity",3,"Earlier portion","2 to 3 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",0.609493852321607,0.248671743347898,1.49386798442202,0.279043315259505
+"Alternative RFS boundary sensitivity",3,"Later portion","3 to 5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",2.06541897419263,1.32191720187869,3.22709738014775,0.00144395131723853
+"Alternative RFS boundary sensitivity",3,"Later portion","3 to 5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",1.47925313850831,0.806243003172673,2.71405747296519,0.206071526189899
+"Alternative RFS boundary sensitivity",3,"Later portion","3 to 5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",0.849805046157638,0.398471309168682,1.81234784000289,0.673632210484474
+"Alternative RFS boundary sensitivity",3,"Later portion","3 to 5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",2.30425969788814,1.26025359543906,4.21313041639187,0.00670286665994352
+"Alternative RFS boundary sensitivity",3,"Later portion","3 to 5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",0.835683603307702,0.408586247663479,1.7092280732183,0.622942063886265
+"Alternative RFS boundary sensitivity",4,"Earlier portion","2 to 4 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",2.0698896269474,1.4172432504005,3.0230823583275,0.000166986809504479
+"Alternative RFS boundary sensitivity",4,"Earlier portion","2 to 4 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",2.28654042226335,1.45954094580344,3.58213116094955,0.000305213430809099
+"Alternative RFS boundary sensitivity",4,"Earlier portion","2 to 4 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",1.52807534288903,0.906037744288493,2.57717105966606,0.111845198647496
+"Alternative RFS boundary sensitivity",4,"Earlier portion","2 to 4 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",1.24570529749626,0.656591061962265,2.36339142901618,0.501323467321056
+"Alternative RFS boundary sensitivity",4,"Earlier portion","2 to 4 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",0.821154944954774,0.447845458671538,1.50564314222113,0.524116066218167
+"Alternative RFS boundary sensitivity",4,"Later portion","4 to 5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",1.56744754726461,0.741930813141576,3.31148372585117,0.238892344916175
+"Alternative RFS boundary sensitivity",4,"Later portion","4 to 5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",1.13575567009205,0.400315903945806,3.22230750622607,0.810904192864409
+"Alternative RFS boundary sensitivity",4,"Later portion","4 to 5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",0.693653121215708,0.191192068200353,2.51660362849407,0.577994202696715
+"Alternative RFS boundary sensitivity",4,"Later portion","4 to 5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",2.77832667383568,1.14557955145735,6.73816069493122,0.0237815827124957
+"Alternative RFS boundary sensitivity",4,"Later portion","4 to 5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",0.416235565691307,0.0933636925230077,1.85566831671388,0.250431944651691

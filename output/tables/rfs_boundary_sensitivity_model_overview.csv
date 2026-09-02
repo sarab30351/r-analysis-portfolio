@@ -1,0 +1,5 @@
+"analysis","boundary_year","phase","interval","participants_at_risk","rfs_events","clinical_parameters","extended_parameters","likelihood_ratio_chisq","degrees_of_freedom","p_value"
+"Alternative RFS boundary sensitivity",3,"Earlier portion","2 to 3 years",1678,115,5,10,22.3328099880073,5,0.000452555068225687
+"Alternative RFS boundary sensitivity",3,"Later portion","3 to 5 years",1533,134,5,10,19.5592781324976,5,0.00151143168942116
+"Alternative RFS boundary sensitivity",4,"Earlier portion","2 to 4 years",1678,202,5,10,26.1516643187661,5,8.33905722773553e-05
+"Alternative RFS boundary sensitivity",4,"Later portion","4 to 5 years",1418,47,5,10,9.97911950121181,5,0.0758290523249626
