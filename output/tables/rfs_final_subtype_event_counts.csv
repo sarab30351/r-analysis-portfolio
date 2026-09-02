@@ -1,0 +1,31 @@
+"analysis","interval","molecular_subtype","participants_at_risk","rfs_events"
+"Final five-interval RFS model","0 to 2 years","Luminal A",697,41
+"Final five-interval RFS model","0 to 2 years","Luminal B",469,51
+"Final five-interval RFS model","0 to 2 years","HER2-enriched",224,44
+"Final five-interval RFS model","0 to 2 years","Basal-like",209,58
+"Final five-interval RFS model","0 to 2 years","Normal-like",146,15
+"Final five-interval RFS model","0 to 2 years","Claudin-low",215,27
+"Final five-interval RFS model","2 to 3.5 years","Luminal A",645,36
+"Final five-interval RFS model","2 to 3.5 years","Luminal B",404,56
+"Final five-interval RFS model","2 to 3.5 years","HER2-enriched",173,33
+"Final five-interval RFS model","2 to 3.5 years","Basal-like",148,20
+"Final five-interval RFS model","2 to 3.5 years","Normal-like",127,9
+"Final five-interval RFS model","2 to 3.5 years","Claudin-low",181,8
+"Final five-interval RFS model","3.5 to 5 years","Luminal A",593,28
+"Final five-interval RFS model","3.5 to 5 years","Luminal B",337,26
+"Final five-interval RFS model","3.5 to 5 years","HER2-enriched",138,8
+"Final five-interval RFS model","3.5 to 5 years","Basal-like",125,6
+"Final five-interval RFS model","3.5 to 5 years","Normal-like",114,11
+"Final five-interval RFS model","3.5 to 5 years","Claudin-low",169,8
+"Final five-interval RFS model","5 to 10 years","Luminal A",534,62
+"Final five-interval RFS model","5 to 10 years","Luminal B",298,59
+"Final five-interval RFS model","5 to 10 years","HER2-enriched",126,23
+"Final five-interval RFS model","5 to 10 years","Basal-like",116,5
+"Final five-interval RFS model","5 to 10 years","Normal-like",102,18
+"Final five-interval RFS model","5 to 10 years","Claudin-low",156,13
+"Final five-interval RFS model","Beyond 10 years","Luminal A",338,62
+"Final five-interval RFS model","Beyond 10 years","Luminal B",171,29
+"Final five-interval RFS model","Beyond 10 years","HER2-enriched",77,8
+"Final five-interval RFS model","Beyond 10 years","Basal-like",79,4
+"Final five-interval RFS model","Beyond 10 years","Normal-like",61,10
+"Final five-interval RFS model","Beyond 10 years","Claudin-low",101,12

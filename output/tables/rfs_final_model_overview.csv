@@ -1,0 +1,6 @@
+"analysis","interval","participants_at_risk","rfs_events","clinical_parameters","extended_parameters","likelihood_ratio_chisq","degrees_of_freedom","p_value","multiplicity_family","holm_adjusted_p_value","holm_significant"
+"Final five-interval RFS model","0 to 2 years",1960,236,5,10,32.9286864813271,5,3.88815074272545e-06,"Five global molecular-subtype likelihood-ratio tests",1.55786525220239e-05,TRUE
+"Final five-interval RFS model","2 to 3.5 years",1678,162,5,10,33.41286135625,5,3.11573050440478e-06,"Five global molecular-subtype likelihood-ratio tests",1.55786525220239e-05,TRUE
+"Final five-interval RFS model","3.5 to 5 years",1476,87,5,10,8.42095692635496,5,0.134511228144609,"Five global molecular-subtype likelihood-ratio tests",0.134511228144609,FALSE
+"Final five-interval RFS model","5 to 10 years",1332,180,5,10,26.291566952103,5,7.83355735489386e-05,"Five global molecular-subtype likelihood-ratio tests",0.000235006720646816,TRUE
+"Final five-interval RFS model","Beyond 10 years",827,125,5,10,21.8659313418905,5,0.000555231194070255,"Five global molecular-subtype likelihood-ratio tests",0.00111046238814051,TRUE

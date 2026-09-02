@@ -1,0 +1,6 @@
+"interval_key","interval","start_year","end_year","model_source","boundary_basis"
+"zero_to_two","0 to 2 years",0,2,"Script 18","Retained from the initial interval specification"
+"two_to_three_point_five","2 to 3.5 years",2,3.5,"Script 21","Neutral midpoint refinement after the 2-to-5-year subtype diagnostic"
+"three_point_five_to_five","3.5 to 5 years",3.5,5,"Script 21","Neutral midpoint refinement after the 2-to-5-year subtype diagnostic"
+"five_to_ten","5 to 10 years",5,10,"Script 18","Retained from the initial interval specification"
+"beyond_ten","Beyond 10 years",10,Inf,"Script 18","Retained from the initial interval specification"
