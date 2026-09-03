@@ -1,0 +1,11 @@
+"analysis","interval","participants_at_risk","rfs_events","clinical_parameters","extended_parameters","likelihood_ratio_chisq","degrees_of_freedom","p_value"
+"Exclude three month-zero RFS events","0 to 2 years",1957,233,5,10,34.127692906588,5,2.2456143708628e-06
+"Exclude three month-zero RFS events","2 to 3.5 years",1678,162,5,10,33.41286135625,5,3.11573050440478e-06
+"Exclude three month-zero RFS events","3.5 to 5 years",1476,87,5,10,8.42095692635496,5,0.134511228144609
+"Exclude three month-zero RFS events","5 to 10 years",1332,180,5,10,26.291566952103,5,7.83355735489386e-05
+"Exclude three month-zero RFS events","Beyond 10 years",827,125,5,10,21.8659313418905,5,0.000555231194070255
+"Exclude Normal-like subtype","0 to 2 years",1814,221,5,9,32.785426645245,4,1.32160721001533e-06
+"Exclude Normal-like subtype","2 to 3.5 years",1551,153,5,9,32.3520791859462,4,1.62090774818394e-06
+"Exclude Normal-like subtype","3.5 to 5 years",1362,76,5,9,4.07198635871373,4,0.396351210171087
+"Exclude Normal-like subtype","5 to 10 years",1230,162,5,9,22.9341263286121,4,0.000130521454236253
+"Exclude Normal-like subtype","Beyond 10 years",766,115,5,9,21.9501334561082,4,0.000205053423058149
