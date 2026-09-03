@@ -1,0 +1,76 @@
+"interval_key","interval","term","comparison","influence_rank","patient_id","participant_subtype","interval_event","dfbetas","absolute_dfbetas"
+"zero_to_two","0 to 2 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",1,"MB-0574","Luminal A",1,-0.136,0.136
+"zero_to_two","0 to 2 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",2,"MB-7148","Luminal A",1,-0.1343,0.1343
+"zero_to_two","0 to 2 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",3,"MB-5033","Luminal B",1,0.1289,0.1289
+"zero_to_two","0 to 2 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",1,"MB-5520","Luminal A",1,-0.1504,0.1504
+"zero_to_two","0 to 2 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",2,"MB-7148","Luminal A",1,-0.1465,0.1465
+"zero_to_two","0 to 2 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",3,"MB-4015","HER2-enriched",1,0.1419,0.1419
+"zero_to_two","0 to 2 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",1,"MB-5520","Luminal A",1,-0.1706,0.1706
+"zero_to_two","0 to 2 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",2,"MB-4266","Luminal A",1,-0.1577,0.1577
+"zero_to_two","0 to 2 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",3,"MB-6230","Luminal A",1,-0.1546,0.1546
+"zero_to_two","0 to 2 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",1,"MB-5150","Normal-like",1,0.2301,0.2301
+"zero_to_two","0 to 2 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",2,"MB-5110","Normal-like",1,0.2265,0.2265
+"zero_to_two","0 to 2 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",3,"MB-0659","Normal-like",1,0.2178,0.2178
+"zero_to_two","0 to 2 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",1,"MB-5311","Claudin-low",1,0.1826,0.1826
+"zero_to_two","0 to 2 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",2,"MB-5431","Claudin-low",1,0.164,0.164
+"zero_to_two","0 to 2 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",3,"MB-7078","Claudin-low",1,0.1632,0.1632
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",1,"MB-2944","Luminal A",1,-0.1531,0.1531
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",2,"MB-0112","Luminal A",1,-0.1498,0.1498
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",3,"MB-5020","Luminal A",1,-0.1464,0.1464
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",1,"MB-0035","HER2-enriched",1,0.1667,0.1667
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",2,"MB-4003","HER2-enriched",1,0.1536,0.1536
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",3,"MB-5020","Luminal A",1,-0.1474,0.1474
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",1,"MB-5470","Basal-like",1,0.2136,0.2136
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",2,"MB-2645","Basal-like",1,0.1846,0.1846
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",3,"MB-0481","Basal-like",1,0.1832,0.1832
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",1,"MB-5656","Normal-like",1,0.3161,0.3161
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",2,"MB-4871","Normal-like",1,0.3004,0.3004
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",3,"MB-5214","Normal-like",1,0.2941,0.2941
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",1,"MB-0333","Claudin-low",1,0.3419,0.3419
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",2,"MB-3271","Claudin-low",1,0.3141,0.3141
+"two_to_three_point_five","2 to 3.5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",3,"MB-5633","Claudin-low",1,0.3054,0.3054
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",1,"MB-7107","Luminal A",1,-0.1765,0.1765
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",2,"MB-7097","Luminal B",1,0.1728,0.1728
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",3,"MB-4970","Luminal B",1,0.1633,0.1633
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",1,"MB-0264","HER2-enriched",1,0.3475,0.3475
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",2,"MB-4222","HER2-enriched",1,0.339,0.339
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",3,"MB-3978","HER2-enriched",1,0.3225,0.3225
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",1,"MB-7039","Basal-like",1,0.3829,0.3829
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",2,"MB-5634","Basal-like",1,0.3736,0.3736
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",3,"MB-0350","Basal-like",1,0.366,0.366
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",1,"MB-7057","Normal-like",1,0.2784,0.2784
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",2,"MB-0551","Normal-like",1,0.2676,0.2676
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",3,"MB-2744","Normal-like",1,0.2396,0.2396
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",1,"MB-5534","Claudin-low",1,0.3471,0.3471
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",2,"MB-5577","Claudin-low",1,0.3052,0.3052
+"three_point_five_to_five","3.5 to 5 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",3,"MB-0906","Claudin-low",1,0.3035,0.3035
+"five_to_ten","5 to 10 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",1,"MB-5636","Luminal B",1,0.1199,0.1199
+"five_to_ten","5 to 10 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",2,"MB-7060","Luminal A",1,-0.1159,0.1159
+"five_to_ten","5 to 10 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",3,"MB-5341","Luminal B",1,0.1112,0.1112
+"five_to_ten","5 to 10 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",1,"MB-4289","HER2-enriched",1,0.1877,0.1877
+"five_to_ten","5 to 10 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",2,"MB-5275","HER2-enriched",1,0.1858,0.1858
+"five_to_ten","5 to 10 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",3,"MB-0467","HER2-enriched",1,0.183,0.183
+"five_to_ten","5 to 10 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",1,"MB-2846","Basal-like",1,0.438,0.438
+"five_to_ten","5 to 10 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",2,"MB-4880","Basal-like",1,0.4212,0.4212
+"five_to_ten","5 to 10 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",3,"MB-5460","Basal-like",1,0.4143,0.4143
+"five_to_ten","5 to 10 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",1,"MB-7227","Normal-like",1,0.2199,0.2199
+"five_to_ten","5 to 10 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",2,"MB-3526","Normal-like",1,0.2189,0.2189
+"five_to_ten","5 to 10 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",3,"MB-5145","Normal-like",1,0.2143,0.2143
+"five_to_ten","5 to 10 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",1,"MB-5588","Claudin-low",1,0.2515,0.2515
+"five_to_ten","5 to 10 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",2,"MB-0885","Claudin-low",1,0.2475,0.2475
+"five_to_ten","5 to 10 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",3,"MB-0460","Claudin-low",1,0.2465,0.2465
+"beyond_ten","Beyond 10 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",1,"MB-4839","Luminal B",1,0.1761,0.1761
+"beyond_ten","Beyond 10 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",2,"MB-5447","Luminal B",1,0.1531,0.1531
+"beyond_ten","Beyond 10 years","molecular_subtypeLuminal B","Luminal B vs Luminal A",3,"MB-5244","Luminal B",1,0.1518,0.1518
+"beyond_ten","Beyond 10 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",1,"MB-5301","HER2-enriched",1,0.3367,0.3367
+"beyond_ten","Beyond 10 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",2,"MB-4276","HER2-enriched",1,0.3245,0.3245
+"beyond_ten","Beyond 10 years","molecular_subtypeHER2-enriched","HER2-enriched vs Luminal A",3,"MB-4145","HER2-enriched",1,0.32,0.32
+"beyond_ten","Beyond 10 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",1,"MB-5235","Basal-like",1,0.5024,0.5024
+"beyond_ten","Beyond 10 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",2,"MB-0200","Basal-like",1,0.5005,0.5005
+"beyond_ten","Beyond 10 years","molecular_subtypeBasal-like","Basal-like vs Luminal A",3,"MB-4235","Basal-like",1,0.4724,0.4724
+"beyond_ten","Beyond 10 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",1,"MB-2754","Normal-like",1,0.303,0.303
+"beyond_ten","Beyond 10 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",2,"MB-5364","Normal-like",1,0.2927,0.2927
+"beyond_ten","Beyond 10 years","molecular_subtypeNormal-like","Normal-like vs Luminal A",3,"MB-3085","Normal-like",1,0.29,0.29
+"beyond_ten","Beyond 10 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",1,"MB-3013","Claudin-low",1,0.2883,0.2883
+"beyond_ten","Beyond 10 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",2,"MB-2616","Claudin-low",1,0.2844,0.2844
+"beyond_ten","Beyond 10 years","molecular_subtypeClaudin-low","Claudin-low vs Luminal A",3,"MB-2764","Claudin-low",1,0.2707,0.2707
