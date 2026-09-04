@@ -147,3 +147,262 @@ system("git push")
 
 # Commit and push scripts 06-12 #
 
+# Create R script 13 for sensitivity analysis involving Stage 0, Stage IV and Normal-like subtype exclusion #
+
+## The sensitivity results support the primary analysis! Excluding Stage 0 and IV cases did not change the interval pattern. There is a 10.9% change, which was early Luminal B: HR 1.038 to 0.925. Both estimates are near 1 and nonsignificant, so no substantive conclusion changed. Excluding Normal-like changed all remaining hazard ratios by at most 5.9%. The strong 0–2 and 2–5-year subtype associations remained. Years 5-10 still showed insufficient global evidence. The late Basal-like hazard ratio remained approximately 0.42 among ten-year survivors. ##
+
+
+# Commit and push script 13 #
+
+# Create R script 14 for model influence diagnostics (robustness check) of the final OS models #
+
+## This is mainly to check for sparse counts and if it's worth investigating whether there are unusually or disproportionately influential participants in our data. The DFBETAS screen did not show an extreme single participant influence:
+# * Largest overall absolute DFBETAS: 0.302.
+# * Early Basal-like maximum: 0.256.
+# * Beyond-10-year Basal-like maximum: 0.260.
+# (DFBETA  = estimated change in a coefficient after deleting one observation)
+# (DFBETAS = that change standardized by the coefficient's standard error)
+# I then performed re-fits, precisely leave-one-out. The three observations with the largest absolute DFBETAS for each subtype coefficient were selected. So, the participant was removed from the interval briefly, and the same model specification was fitted. The largest exact hazard ratio change was 9.85% for early Normal-like. The largest standardized coefficient change was 0.351 standard errors. Early Basal-like changed by 6.8%–8.7%, from 7.176 to 7.666–7.802. Late Basal-like changed by 7.0%–7.3%, from 0.419 to 0.388–0.390. Deleting the most influential participants made both Basal-like estimates more extreme, not closer to 1. Therefore, no main finding appears driven by one participant.
+# The DFBETAS screen evaluated every participant, but exact refitting was limited to the three most influential candidates for each contrast rather than every possible deletion.
+# Caution is still needed to interpret the late Basal-like association, which remains conditional on survival beyond 10 years and is based on only 14 deaths.
+# The 10% benchmark is a descriptive stability criterion, NOT a formal statistical cutoff.
+
+
+# Commit and push script 14 #
+
+
+# Create script 15 for descriptive analysis of relapse-free survival cohort #
+
+## The cohort contributed:
+
+# • 18,273.22 observed person-years
+# • Median follow-up of 12.95 years
+# • 95% CI: 12.49–13.63 years
+# HER2-enriched and Basal-like tumors show the steepest early decline in relapse-free survival. Luminal A has the highest five- and ten-year RFS estimates. Several curves converge or cross later, especially the Basal-like curve. This suggests that subtype associations may change over time. The crossing does not prove a proportional hazards violation. Script 16 will fit the adjusted full-follow-up Cox model and formally test that assumption. The global log-rank result (60.051, p < 0.001) shows that the unadjusted curves differ overall. It does not identify which subtypes differ after clinical adjustment. Restricting the display to 20 years is appropriate because only 10–27 participants remain at risk in most groups by then. Strong conclusions should not be drawn from the far-right tails. Three events recorded at month zero were retained:
+# • MB-6194: Normal-like
+# • MB-6230: Luminal A
+# • MB-6363: Basal-like
+# They were retained because they were recorded as events and all three participants had subsequent overall survival follow-up. However, because the exact chronology cannot be confirmed, a later sensitivity analysis will exclude them. ##
+
+
+# Commit and push script 15 #
+
+
+# Create script 16 to fit two Cox models for RFS cohort #
+
+
+## Script 16 fitted two Cox models in the RFS cohort of 1,960 participants and 790 events. The clinical model included spline-modeled age and NPI and was stratified by source cohort. The extended model added molecular subtype, using Luminal A as the reference. The likelihood-ratio test showed that adding molecular subtype improved model fit (36.93, p < 0.001). The provisional estimates suggested higher RFS event hazards for Luminal B, HER2-enriched, and Normal-like tumors than for Luminal A. However, all full follow-up hazard ratios were treated as provisional because they assume that subtype effects remain constant over time. This assumption is evaluated separately in Script 17. ##
+
+
+# Commit and push script 16 #
+
+
+
+# Create script 17 to diagnose full follow-up model fitted in script 16 #
+
+
+
+## The important result is that the full follow-up model cannot support one constant RFS hazard ratio for each subtype:
+# • Molecular subtype as a whole violated proportional hazards.
+# • The global model also violated proportional hazards.
+# • Age and NPI showed time-varying associations.
+# • Luminal B, HER2-enriched, and Basal-like specifically showed time-varying subtype effects.
+# • Normal-like and Claudin-low did not show individual diagnostic signals, but this does not override the strong global subtype result.
+# Therefore, the hazard ratios from Script 16 describe averages across changing effects and must not be presented as the final RFS estimates. Script 18 will fit interval-specific RFS models, after which every interval must be diagnosed again. ##
+
+
+
+# Commit and push Script 17 #
+
+
+# Create script 18 to fit interval-specific Cox models for RFS cohort #
+
+
+
+## The four intervals contain 236, 249, 180, and 125 RFS events, which sum exactly to all 790 events. Every model used the intended 10 coefficients.
+# Main provisional pattern:
+# - During 0–2 years, Basal-like had the highest hazard versus Luminal A (HR 3.40), followed by HER2-enriched (HR 2.44).
+# - During 2–5 years, Luminal B (HR 1.96) and HER2-enriched (HR 2.03) remained clearly elevated.
+# - During 5–10 years, the pattern changed: Luminal B remained elevated, while Basal-like had a lower estimated hazard.
+# - Beyond 10 years, Basal-like, HER2-enriched, and Claudin-low had lower estimated hazards than Luminal A.
+# The apparent late protective effects require caution. For example, there were only 5 Basal-like events during 5-10 years and 4 beyond 10 years. These estimates concern participants who had already remained RFS event-free until the beginning of that interval; they do not mean Basal-like disease has better RFS from diagnosis.
+# The global subtype test was p < 0.001 in every interval. However, individual p-values are not final until:
+# 1. Script 19 checks proportional hazards within each interval.
+# 2. The interval structure is confirmed.
+# 3. Holm adjustment is applied across the four global tests and the 20 individual comparisons. ##
+
+
+# Commit and push script 18 #
+
+
+# Create script 19 for interval-specific Cox model diagnostics #
+
+
+
+## Decision is: retain the four primary RFS intervals, but describe the diagnostics as adequate with residual signals, not perfectly clean.
+# Why it should not be split again:
+# - All four global model tests are non-significant.
+# - The overall subtype test is acceptable in three of four intervals.
+# - The remaining problems do not identify one clear additional breakpoint shared across coefficients.
+# - Further splitting would be data-driven and would create sparse subtype event counts, particularly for Normal-like and Claudin-low.
+# - This decision is consistent with how the remaining OS diagnostic signals were handled.
+# Interpretation by interval
+# 0–2 years
+# This interval is acceptable. The overall subtype curve is reasonably stable. Luminal B has an individual p-value of 0.030, but its curve shows a moderate fluctuation rather than a dramatic directional change. The overall subtype and global tests show no violation. One isolated test is not enough to split the interval.
+# 2–5 years
+# This is the main residual concern. The HER2-enriched coefficient declines across the interval, while the Normal-like coefficient increases. This explains the significant overall subtype test.
+# Therefore, the reported HER2-enriched HR of 2.03 and Normal-like HR of 1.60 should be understood as average hazard ratios across years 2–5. They may not describe the association equally well at every point within that period.
+# There is no obvious common point at which both curves change, so dividing the interval again would be arbitrary. I should retain it and later perform a targeted sensitivity analysis.
+# 5–10 years
+# The subtype effects look sufficiently stable. The age spline shows an upward trend, explaining its p-value of 0.007. Because the subtype term, all individual subtype coefficients, and the global test are acceptable, this does not justify splitting the interval.
+# As done for OS, an age-stratified sensitivity model can check whether different handling of age materially changes the subtype hazard ratios.
+# Beyond 10 years
+# There is no formal evidence against proportional hazards. The curves and confidence bands become unstable toward the far end because very few participants and events remain. That widening is primarily a loss of precision. The late hazard ratios must still be described as conditional and imprecise, especially for Basal-like disease, which had only four events.
+# In the figures:
+# The solid black line represents the estimated coefficient over time.
+# Proportional hazards means that this line should be reasonably horizontal.
+# - A flat line above zero means a constant increased hazard.
+# - A flat line below zero means a constant decreased hazard.
+# - A rising or falling line means the hazard ratio may change over time.
+# - The dashed bands show uncertainty.
+# - The gray zero line represents no association.
+# Conclusion
+# The four-interval structure is adequate for the primary RFS analysis, provided that I:
+# 1. Report the interval hazard ratios as interval-average associations.
+# 2. Explicitly disclose the residual 2–5-year subtype signal.
+# 3. Run a targeted sensitivity analysis for that signal.
+# 4. Examine age-stratified models because of the 5–10 year age diagnostic.
+# 5. Avoid overinterpreting late estimates with very few events. ##
+
+
+# Commit and push script 19 #
+
+
+# Create script 20 to apply age stratification to baseline hazards in the 5-to-10 year RFS subtype estimates #
+
+
+## Every subtype HR changed by less than 4%. The largest change was 3.7% for Basal-like. Effect directions remained unchanged. Molecular subtype remained associated with RFS overall: likelihood-ratio p < 0.001. The sensitivity model had no remaining PH signals: global p = 0.683 and subtype p = 0.592.
+## I will keep the spline-adjusted primary model and report the age-stratified model as supporting robustness. ##
+
+
+# Commit and push script 20 #
+
+
+# Create script 21 to split the 2-to-5-year interval into it's neutral midpoint to address PH violations #
+
+
+## During 2-3.5 years, subtype added strong overall information: p < 0.001.
+## During 3.5–5 years, the overall subtype test was p = 0.135. This is not proof of no association; this half had only 87 events and therefore less precision.
+## HER2-enriched changed from HR 2.92 early to HR 0.90 later.
+## Normal-like changed from HR 1.28 early to HR 2.00 later.
+## All proportional hazards diagnostics within both smaller intervals were non-significant.
+## Therefore, the midpoint split explains and resolves the residual diagnostic signal.
+## I think it's good to have the final model contain 5 intervals now, instead of 4. Some precision may be sacrificed because of lower event counts but the violations will properly be addressed. ##
+
+
+# Commit and push script 21 #
+
+
+# Create script 22 to assemble the 5 interval model and adjust for multiple testing #
+
+
+## Molecular subtype added prognostic information in 4 of 5 intervals after Holm adjustment.
+## Only exception is 3.5–5 years: adjusted p = 0.135.
+## Only 4 of the 25 individual comparisons survived Holm adjustment:
+## HER2-enriched vs Luminal A during 0–2 years.
+## Basal-like vs Luminal A during 0–2 years.
+## Luminal B vs Luminal A during 2–3.5 years.
+## HER2-enriched vs Luminal A during 2–3.5 years.
+## A significant global subtype test without significant individual comparisons as seen during 5–10 and beyond 10 years is not contradictory. The global test jointly assesses all five subtype coefficients and belongs to a smaller five-test family. Each individual comparison belongs to the larger 25-test family and faces a stronger multiplicity penalty.
+## The later estimates also require caution:
+## Basal-like had only 5 events during 5–10 years and 4 beyond 10 years.
+## Several 3.5–5-year subtypes had only 6–11 events.
+## Those hazard ratios may be large but are imprecise and should not be interpreted from the point estimate alone.
+
+
+# Create script 23 to test if anything changes when I move the dividing line from 3.5 to 3 and then to 4 years? #
+
+
+## Across all three choices of boundary; 3, 3.5, and 4 years the main pattern remained: HER2-enriched had a much higher RFS event rate earlier, but this elevation weakened later. Basal-like also had a higher event rate earlier and a lower rate later. Normal-like showed the opposite pattern: its relative event rate was higher later. Luminal B remained generally above Luminal A, although whether it was slightly higher earlier or later depended on the boundary. Claudin-low results were unstable because there were very few events. ##
+
+
+# Create script 24 to diagnose PH violations from the alternative boundary models #
+
+
+## Statistically, all four alternative models passed their proportional hazards diagnostics:
+## 0 of 16 term-level tests showed a signal.
+## 0 of 20 individual subtype tests showed a signal.
+## All four global model tests were non-significant.
+## This strengthens Script 23’s conclusion: the acceptable proportional-hazards behavior is not unique to the 3.5-year split.
+## Two results were extremely close to 0.05:
+## Age at diagnosis during 2–3 years: p = 0.05089.
+## HER2-enriched during 2–4 years: p = 0.05059.
+## These are not formally below 0.05, but the corresponding curves should be inspected before finalizing the interpretation.
+## The figures support keeping the final 3.5-year boundary.
+## 2–3 years: Subtype curves are reasonably stable. Age shows a mild upward trend, matching its borderline p = 0.0509.
+## 3–5 years: The curves are broadly acceptable, with no convincing systematic violations.
+## 2–4 years: HER2-enriched declines across the interval, matching its borderline p = 0.0506. This suggests that moving the boundary as late as year 4 leaves some of the original HER2 time variation inside the earlier interval.
+##. 4–5 years: The curves fluctuate heavily and have wide confidence bands because there are only 47 events, including extremely sparse subtype counts. Its non-significant tests reflect *limited information*, not proof of perfectly constant effects.
+## Therefore:
+## The 3-year split is broadly adequate but has a borderline age trend. The 4-year split creates a potentially time-varying HER2 estimate before the boundary and a sparse, unstable interval afterward. Neither provides a compelling improvement over the balanced 3.5-year split. ##
+
+
+
+# Commit and push script 24 #
+
+
+
+
+# Create script 25 to assess sensitivity of final five interval model to month-zero exclusions and Normal-like exclusions #
+
+
+## Both sensitivity analyses support the final five-interval results. Removing the three month-zero events changed the hazard ratios by at most 4.34%. Removing the Normal-like subtype changed the remaining hazard ratios by at most 6.93%. No comparison changed from HR above 1 to below 1, or vice versa. The 3.5–5-year global subtype test remained non-significant in both analyses. The other four interval-level subtype tests remained significant. The month-zero exclusion only changed the 0–2-year model. All later estimates were identical because those three participants experienced their events before they could enter any later risk set. ##
+
+
+
+# Commit and push script 25 #
+
+
+
+# Create script 26 to apply DFBETAS to see if anything changes materially when participants with the highest score are left out #
+
+
+
+## The important result is that the four Holm-significant RFS findings are not being created by one unusual participant. For those four headline comparisons, deleting the most influential participant changed the hazard ratio by only:
+## 0–2 years, HER2-enriched: 3.5%
+## 0–2 years, Basal-like: 3.9%
+## 2–3.5 years, Luminal B: 3.5%
+## 2–3.5 years, HER2-enriched: 4.2%
+## All are below the descriptive 10% threshold, and none crossed HR = 1. Therefore, the main findings are stable.
+## Ten of the 25 estimates changed by at least 10%, but these were concentrated in less precise comparisons with few events. The largest was:
+## Beyond 10 years, Basal-like: HR changed from 0.200 to 0.147, a 26.5% relative change. That estimate still remained below 1, so its direction did not reverse. Only four late Basal-like events were available, explaining its sensitivity.
+## Across all 75 deletions:
+## No estimate changed direction across HR = 1.
+## The largest coefficient change was 0.577 standard errors.
+## The four multiplicity-adjusted headline findings were stable.
+## Several sparse secondary estimates had unstable magnitudes and should be described cautiously.
+## DFBETAS are formally an approximation of the coefficient change following deletion, standardized by its standard error; the exact leave-one-out refits confirmed the actual changes. ##
+
+
+# Commit and push script 26 #
+
+
+
+# Create script 27 to display the final results for the five-interval RFS model shown in script 22 #
+
+
+
+## 5 follow-up intervals
+## 25 subtype comparisons
+## 4 of 5 overall subtype tests remained significant after Holm adjustment
+## 4 of 25 individual comparisons remained significant after Holm adjustment
+## Interval results:
+## 0–2 years;	Subtype mattered overall. HER2-enriched and Basal-like had clearly higher RFS-event hazards than Luminal A.
+## 2–3.5 years;	Subtype mattered overall. Luminal B and HER2-enriched had clearly higher hazards than Luminal A.
+## 3.5–5 years;	There was no convincing overall evidence that the subtypes differed.
+## 5–10 years;	Subtypes differed collectively, but no individual comparison with Luminal A survived Holm adjustment.
+## Beyond 10 years;	Subtypes again differed collectively, but no individual comparison survived Holm adjustment. Basal-like appeared to have a much lower hazard, but it narrowly missed Holm significance (p = 0.0526). ##
+
+
+
+# Commit and push script 27 #
