@@ -1,6 +1,6 @@
 # r-analysis-portfolio 
 ### COMPLETED, DETAILED RESULTS OF EACH SCRIPT IN `FULL_ANALYSIS_DOCUMENTATION_SB.Rmd` 
-### SLIDE DECK ARRIVING SOON ###
+### SLIDE DECK HERE -> https://canva.link/ea7r394abm9sd20 ###
 
 ### *PROJECT UPDATE* 04.09: The secondary relapse-free survival analysis is complete. The association between molecular subtype and RFS-event hazard varied over follow-up. After Holm adjustment, the overall subtype effect was significant in four of the five intervals. During the first two years, HER2-enriched and Basal-like tumours had higher hazards than Luminal A. Between 2 and 3.5 years, Luminal B and HER2-enriched tumors had higher hazards. No overall subtype difference was detected between 3.5 and 5 years. Although the overall subtype tests were significant from 5 to 10 years and beyond 10 years, no individual comparison with Luminal A remained significant after adjustment. Overall, the clearest subtype-specific differences occurred during the first 3.5 years after diagnosis. All RFS diagnostics, sensitivity analyses, influence checks, and visualisation are documented reproducibly in scripts `15`-`27`. 
 
